@@ -1,0 +1,66 @@
+.header {
+    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 380px;
+    width: 240px;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 10px;
+}
+
+.screen {
+    background-color: honeydew;
+    border-radius: 12px;
+    outline: 2px grey solid;
+    height: 60px;
+    width: 240px;
+    font-size: 20px;
+    padding: 12px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.input {
+    height: 18px;
+    margin: 2px;
+    text-align: right;
+}
+
+.holder {
+    height: 18px;
+    margin: 2px;
+    text-align: right;
+    color: grey;
+}
+
+.result {
+    height: 18px;
+    margin: 2px;
+    text-align: center;
+    color: orangered;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+
+#backspace {
+    width: 115px;
+}
+
+#clear {
+    width: 115px;
+}
+
+.operator {
+    background-color: antiquewhite;
+}
